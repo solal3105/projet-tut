@@ -67,7 +67,6 @@ h3 {
 	padding: 20px;
 }
 h4 {
-	background-color: #fff;
 	padding: 20px;
 }
 article {
@@ -136,6 +135,15 @@ section#projet{
 	overflow: auto;
 	background-color: #fff;
 }
+footer{
+	background-color: #222;
+	color: #fff;
+}
+footer ul li{
+	display: block;
+	text-align: left;
+}
+h5{text-align: center;}
 @media screen and (max-width: 500px) {
   .colonnes {
 	width: 100%;
@@ -151,4 +159,13 @@ section#projet{
 	padding-left: 12.5%;
 	padding-right: 12.5%;
 }
+	footer{
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+#info{
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+
 }
