@@ -9,6 +9,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 * {
 	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	-webkit-transition: 1s;
 }
 nav {
 	background-color: rgba(0, 0, 0, 0.8);
@@ -16,7 +18,10 @@ nav {
 	width: 100%;
 	top: 0;
 }
-body{background: url(img.jpg) center center fixed;}
+body {
+	background: url(img.jpg) center center fixed;
+
+}
 ul {
 	margin: 20px;
 	text-align: right;
@@ -33,14 +38,10 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-section#un {
-	background-color: rgba(255, 255, 255, 0);
-	height: 100vh;
-}
-#bloc {
+#acceuil {
 	max-width: 500px;
 	display: block;
-	margin:200px auto 200px auto;
+	margin: 200px auto 200px auto;
 }
 h1 {
 	font-size: 3em;
@@ -65,27 +66,14 @@ h3 {
 	font-size: 20px;
 	padding: 20px;
 }
-h4{
+h4 {
 	background-color: #fff;
 	padding: 20px;
 }
-section{background-color: #fff;}
-section#un {
-	
-}
-section#deux {
-	webkit-background-size: cover;
-	min-height: 200px;
-
-}
 article {
-	width: 33.33%;
+	width: 100%;
 	float: left;
 	height: auto;
-	background-color: #fff;
-	padding: 10px 0 40px 0;
-	display: block;
-
 }
 article img {
 	width: 80%;
@@ -130,7 +118,37 @@ table {
 	display: block;
 	border-left: 100vw solid #fff;
 	border-bottom: 50px solid #222;
+}
+.colonnes {
+	width: 33.33%;
+	float: left;
+}
+section#info {
+	background-color: #fff;
+	overflow: auto;
+}
+section#info img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+section#projet{
+	overflow: auto;
+	background-color: #fff;
+}
+@media screen and (max-width: 500px) {
+  .colonnes {
+	width: 100%;
+	float: left;
 	}
-.colonnes{width: 33.33%;
-float: left;}
-section#deux img{display: block; margin-left: auto; margin-right: auto;}
+}
+@media screen and (min-width: 1200px) {
+  .colonnes {
+	width: 33.33%;
+	float: left;
+}
+	section#projet{
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+}
+}
