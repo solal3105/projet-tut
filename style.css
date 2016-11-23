@@ -10,16 +10,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 * {
 	font-family: 'Open Sans', sans-serif;
 }
-body {
-	background: url(img.jpg) no-repeat center fixed;
-	webkit-background-size: cover;
-}
 nav {
 	background-color: rgba(0, 0, 0, 0.8);
 	position: fixed;
 	width: 100%;
 	top: 0;
 }
+body{background: url(img.jpg) center center fixed;}
 ul {
 	margin: 20px;
 	text-align: right;
@@ -43,7 +40,7 @@ section#un {
 #bloc {
 	max-width: 500px;
 	display: block;
-	margin: 200px auto 200px auto;
+	margin:200px auto 200px auto;
 }
 h1 {
 	font-size: 3em;
@@ -68,13 +65,17 @@ h3 {
 	font-size: 20px;
 	padding: 20px;
 }
+h4{
+	background-color: #fff;
+	padding: 20px;
+}
 section{background-color: #fff;}
 section#un {
-	height: auto;
+	
 }
-section#articles {
-	background: url(img1.jpg) no-repeat center fixed;
+section#deux {
 	webkit-background-size: cover;
+	min-height: 200px;
 
 }
 article {
@@ -115,26 +116,21 @@ table {
 	overflow: auto;
 	display: block;
 	border-right: 100vw solid #fff;
-	border-top: 100px solid transparent;
+	border-top: 50px solid transparent;
+	margin-top: 100Px;
 }
 .triangletop {
 	overflow: auto;
 	display: block;
 	border-left: 100vw solid #fff;
-	border-bottom: 100px solid transparent;
+	border-bottom: 50px solid transparent;
 }
 #trianglefooter {
 	overflow: auto;
 	display: block;
 	border-left: 100vw solid #fff;
-	border-bottom: 100px solid #222;
-}
-article:nth-child(1){margin-top: 0px;}
-article:nth-child(2){margin-top: 0px;}
-article:nth-child(3){margin-top: 0px;}
-article:nth-child(6){margin-top: 0px;}
-article:nth-child(7){margin-top: 0px;}
-article:nth-child(8){margin-top: 0px;}
-article:nth-child(11){margin-top: 0px;}
-article:nth-child(12){margin-top: 0px;}
-article:nth-child(13){margin-top: 0px;}
+	border-bottom: 50px solid #222;
+	}
+.colonnes{width: 33.33%;
+float: left;}
+section#deux img{display: block; margin-left: auto; margin-right: auto;}
