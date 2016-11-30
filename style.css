@@ -7,13 +7,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+body{width: 100%;}
 * {
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
 	-webkit-transition: 1s;
 }
 nav {
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(255, 255, 255, 1);
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -33,12 +34,12 @@ li {
 }
 a {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 a:hover {
 	text-decoration: underline;
 }
-#acceuil {
+#accueil {
 	max-width: 500px;
 	display: block;
 	margin: 200px auto 200px auto;
