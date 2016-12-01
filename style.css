@@ -18,7 +18,11 @@ nav {
 	position: fixed;
 	width: 100%;
 	top: 0;
+	height: 60px;
 }
+nav img{height: 50px;
+	margin: 5px;
+float: left;}
 body {
 	background: url(img.jpg) center center fixed;
 
@@ -42,7 +46,7 @@ a:hover {
 #accueil {
 	max-width: 500px;
 	display: block;
-	margin: 200px auto 200px auto;
+	margin: 150px auto 100px auto;
 }
 h1 {
 	font-size: 3em;
@@ -118,10 +122,16 @@ table {
 	border-left: 100vw solid #fff;
 	border-bottom: 50px solid transparent;
 }
-#trianglefooter {
+#trianglesocialhaut {
 	overflow: auto;
 	display: block;
 	border-left: 100vw solid #fff;
+	border-bottom: 50px solid #333;
+}
+#trianglesocialbas {
+	overflow: auto;
+	display: block;
+	border-left: 100vw solid #333;
 	border-bottom: 50px solid #222;
 }
 .colonnes {
@@ -142,6 +152,7 @@ section#projet{
 	background-color: #fff;
 }
 footer{
+	padding-top: 20px;
 	background-color: #222;
 	color: #fff;
 }
@@ -149,6 +160,22 @@ footer ul li{
 	display: block;
 	text-align: left;
 }
+#social{
+	background-color: #333;
+	text-align: center;
+}
+#social img{
+	padding:20px;
+	width: 50px;
+}
+#social img:hover{
+	background-color: #3B5998;
+	margin: 0 20px;
+	width: 50px;
+}
+#twitter img:hover {background-color: #00aced; }
+#facebook img:hover {background-color: #3b5998; }
+#web img:hover {background-color: #2980b9; }
 h5{text-align: center;}
 @media screen and (max-width: 500px) {
   .colonnes {
