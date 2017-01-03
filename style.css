@@ -47,9 +47,10 @@ a:hover {
 	text-decoration: underline;
 }
 
-li a{
+footer li a{
 	color: white;
 	text-align: left;
+	font-weight: 100;
 }
 
 #accueil {
@@ -90,8 +91,9 @@ h4 {
 }
 
 h5 a {
-	text-align: center;
+	text-align: left;
 	color: white;
+	font-weight: 600;
 }
 
 article {
