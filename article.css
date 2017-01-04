@@ -119,6 +119,17 @@ table {
 	background-color: #222;
 	height: 33.33vh;
 }
+h5 a {
+	text-align: left;
+	color: white;
+	font-weight: 600;
+}
+footer li a{
+	color: white;
+	text-align: left;
+	font-weight: 100;
+}
+
 .element1 {
 	max-width: 0;
 	display: block;
@@ -284,7 +295,7 @@ section#info img{max-width: 100px;}
 	nav img{display: none;}
 	nav ul{text-align: center;
 		margin: 19px 0;}
-	nav li{ 
+	nav li{
 		margin: 0 10px;
 		padding:0;
 
@@ -309,4 +320,3 @@ section#info img{max-width: 100px;}
 		padding-right: 12.5%;
 	}
 }
-
