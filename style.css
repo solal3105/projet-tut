@@ -153,6 +153,16 @@ table {
 	background-color: #eee;
 	margin: 20px 0;
 }
+.semestre p{
+	max-width: 700px;
+	text-align: LEFT;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	font-weight: 200;
+
+}
 #trianglesocialbas {
 	overflow: auto;
 	display: block;
