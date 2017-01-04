@@ -30,11 +30,11 @@ nav img {
 body {
 	background: url(img.jpg) center center fixed;
 }
-ul {
+nav ul {
 	margin: 19px;
 	text-align: right;
 }
-li {
+nav li {
 	display: inline;
 	font-size: 1em;
 	margin-left: 30px;
@@ -253,6 +253,9 @@ h5 {
 	text-align: center;
 	color: white;
 }
+#info ul li{
+	list-style-type: square ;
+	text-align: left;}
 section#info img{max-width: 100px;}
 @media screen and (max-width: 700px) {
 	article {
