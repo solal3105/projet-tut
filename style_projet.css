@@ -5,7 +5,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 body {
-	background: url(realite_augmentee.jpg) center center fixed;
+	background: url(Image/realite_augmentee.jpg) center center fixed;
 	-webkit-background-size: cover;
 }
 #accueil {
