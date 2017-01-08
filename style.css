@@ -46,13 +46,11 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-
-footer li a{
+footer li a {
 	color: white;
 	text-align: left;
 	font-weight: 100;
 }
-
 #accueil {
 	max-width: 500px;
 	display: block;
@@ -89,13 +87,11 @@ article h3 {
 h4 {
 	padding: 20px;
 }
-
 h5 a {
 	text-align: left;
 	color: white;
 	font-weight: 600;
 }
-
 article {
 	width: 33.33%;
 	float: left;
@@ -107,7 +103,7 @@ article img {
 	margin-left: auto;
 	margin-right: auto;
 }
-article img:hover{
+article img:hover {
 	transition: 1s;
 }
 table {
@@ -147,13 +143,13 @@ table {
 	border-left: 100vw solid #fff;
 	border-bottom: 50px solid #333;
 }
-.semestre{
+.semestre {
 	padding: 10px;
 	text-align: center;
 	background-color: #eee;
 	margin: 20px 0;
 }
-.semestre p{
+.semestre p {
 	max-width: 700px;
 	text-align: LEFT;
 	display: block;
@@ -161,7 +157,6 @@ table {
 	margin-left: auto;
 	padding: 20px;
 	font-weight: 200;
-
 }
 #trianglesocialbas {
 	overflow: auto;
@@ -209,9 +204,9 @@ footer ul li {
 	display: block;
 	text-align: left;
 }
-.rapport{
-  box-shadow: 1px 1px 12px #ddd;
-  margin-bottom: 10px;
+.rapport {
+	box-shadow: 1px 1px 12px #ddd;
+	margin-bottom: 10px;
 }
 #social {
 	background-color: #333;
@@ -257,16 +252,19 @@ h5 {
 	text-align: center;
 	color: white;
 }
-#info ul li{
-	list-style-type: square ;
-	text-align: left;}
-section#info img{max-width: 100px;}
+#info ul li {
+	list-style-type: square;
+	text-align: left;
+}
+section#info img {
+	max-width: 100px;
+}
 @media screen and (max-width: 700px) {
 	article {
 		width: 100%;
 		float: left;
 	}
-	article h3{
+	article h3 {
 		margin: 10px;
 	}
 	#social a {
@@ -283,28 +281,29 @@ section#info img{max-width: 100px;}
 	#social img {
 		padding: 0;
 	}
-	#accueil h2{
+	#accueil h2 {
 		display: none;
 		background-color: red;
-
 	}
-	#accueil h1{
+	#accueil h1 {
 		padding-bottom: 10px;
 	}
-	footer ul{
+	footer ul {
 		max-width: 300px;
 		margin: 20px auto;
 	}
-	nav img{display: none;}
-	nav ul{text-align: center;
-		margin: 19px 0;}
-	nav li{
+	nav img {
+		display: none;
+	}
+	nav ul {
+		text-align: center;
+		margin: 19px 0;
+	}
+	nav li {
 		margin: 0 10px;
-		padding:0;
-
+		padding: 0;
 	}
 }
-
 @media screen and (min-width: 1200px) {
 	.colonnes {
 		width: 100%;
