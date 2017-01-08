@@ -10,6 +10,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
 	width: 100%;
 }
+section img{
+	width: 100%;
+	max-width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+section img:hover{
+	transform: scale(1.05);
+}
 * {
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
@@ -30,11 +40,11 @@ nav img {
 body {
 	background: url(Image/img.jpg) center center fixed;
 }
-ul {
+nav ul {
 	margin: 19px;
 	text-align: right;
 }
-li {
+nav ul li {
 	display: inline;
 	font-size: 1em;
 	margin-left: 30px;
@@ -66,7 +76,7 @@ h2 {
 	display: block;
 	margin: auto;
 	background-color: #fff;
-	padding: 10px;
+	padding: 10px 0 20px 0;
 }
 section{
 	background-color: #fff;
@@ -99,6 +109,15 @@ article {
 	float: left;
 	height: auto;
 }
+section ul li{
+	list-style-type: disc;
+	max-width: 800px;
+	text-align: left;
+	display: block;
+	padding-left: 10px;
+	margin: 0 auto 10px auto;
+}
+section ul li a{color: purple;}
 section p{
 	max-width: 800px;
 	display: block;
@@ -256,6 +275,10 @@ footer ul li {
 }
 h5 {
 	text-align: center;
+}
+
+footer li a{
+	margin-left: 10px;
 }
 section#info img{max-width: 100px;}
 @media screen and (max-width: 700px) {

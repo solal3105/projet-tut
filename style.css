@@ -209,6 +209,10 @@ footer ul li {
 	display: block;
 	text-align: left;
 }
+.rapport{
+  box-shadow: 1px 1px 12px #ddd;
+  margin-bottom: 10px;
+}
 #social {
 	background-color: #333;
 	text-align: center;
